@@ -2,6 +2,30 @@
 
 An idiomatic clojure wrapper to the Jena ontology management library. 
 
+## Install
+
+### Leiningen / Boot:
+
+```clj
+[jena-clj "0.1.0"]
+```
+
+### Gradle 
+
+``` gradle
+compile "jena-clj:jena-clj:0.1.0"
+```
+
+### Maven
+``` xml
+<dependency>
+  <groupId>jena-clj</groupId>
+  <artifactId>jena-clj</artifactId>
+  <version>0.1.0</version>
+</dependency>
+```
+
+
 ## Usage
 
 Some usage examples:
