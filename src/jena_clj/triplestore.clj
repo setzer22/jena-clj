@@ -1,11 +1,11 @@
 ;; This module consists of an idiomatic clojure wrapper for the Jena API.
 
 (ns jena-clj.triplestore
-  (import [clojure.lang Keyword]
-          [org.apache.jena.query Dataset]
-          [org.apache.jena.rdf.model Model ModelFactory ResourceFactory]
-          [org.apache.jena.query Query QueryFactory ResultSet QueryExecution QueryExecutionFactory ReadWrite]
-          [org.apache.jena.tdb TDBFactory]))
+  (:import [clojure.lang Keyword]
+           [org.apache.jena.query Dataset]
+           [org.apache.jena.rdf.model Model ModelFactory ResourceFactory]
+           [org.apache.jena.query Query QueryFactory ResultSet QueryExecution QueryExecutionFactory ReadWrite]
+           [org.apache.jena.tdb TDBFactory]))
 
 (defmacro with-transaction
   "Custom statement. Syntax:
